@@ -1,5 +1,34 @@
 {
   "pages": [
-    "page/home/home"
-  ]
+    "page/home/home",
+    "page/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "DaQuan",
+    "backgroundColor": "orange"
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [{
+      "pagePath": "page/category/category",
+      "text": "分类",
+      "iconPath": "assets/tabbar/01.jpg",
+      "selectedIconPath": "assets/tabbar/02.jpg"
+    },
+    {
+      "pagePath": "page/home/home",
+      "text": "信息",
+      "iconPath": "assets/tabbar/01.jpg",
+      "selectedIconPath": "assets/tabbar/02.jpg"
+    },
+    {
+      "pagePath": "page/home/home",
+      "text": "信息",
+      "iconPath": "assets/tabbar/01.jpg",
+      "selectedIconPath": "assets/tabbar/02.jpg"
+    }
+    ]
+  }
 }
